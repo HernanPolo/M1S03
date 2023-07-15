@@ -54,3 +54,70 @@ nav li {
       height:30px;
       border-radius:15px ;
 }
+main{ 
+    background-color: #8e8e8e;
+    background-image: url(images/fundo.jpg);
+    width:100%;
+    height:100%;
+}
+
+main h1{
+   padding: 15px;
+}
+.card{
+    /*border: solid;*/
+    margin-left:40px;
+    border-radius:15px;
+    width:300px;
+    background:#ffffff;
+    height:590px;
+}
+.fav{
+
+    padding-top: 7px;
+    padding-right:7px ;
+    text-align: end;
+}
+.produto img{
+    width:100%;
+}
+.descPro{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.valorAntigo{
+    padding-top: 15px;
+    padding-inline:15px ;
+    width:100% ;
+    
+}
+ .valorAtual{
+    width: 100%;
+    text-align: center;
+    font-size:30px;
+    padding-top: 15px;
+ }
+ .butom{
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+button{
+    font-size:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content:space-evenly;
+    display:flex;
+    align-items:center;
+    background-color: rgb(187, 245, 255);
+    height:40px;
+    width: 95%;
+    border-radius:10px;
+    padding:20px;
+    border:none;
+}
+ 
+button.img{
+
+}
