@@ -26,7 +26,43 @@
     </header>
     <hr>
     <main>
-    
+              <h1 class="tituloContato">Formulário de contato</h1>
+        <section class="contato">
+            <form> 
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input class="formu" type="text" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div>
+                    <label for="nome">Telefone:</label>
+                    <input class="formu" type="text" name="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input class="formu" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select name="assunto">
+                        <option selected disabled>Selecione</option>
+                        <option>Comercial</option>
+                        <option>Dúvidas</option>
+                        <option>Revenda</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="textArea">Mensagem:</label>
+                    <textarea name="textArea" placeholder="Digite a sua mensagem..." id="textArea" cols="30" rows="10"></textarea>
+                </div>
+                <div class="orcamento">
+                    <input type="checkbox" name="orcamento">
+                    <label for="orcamento">Esta mensagem é sobre um orçamento</label>
+                </div>
+                <div class="butom">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
 
          </div>
     </main>
