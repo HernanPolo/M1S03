@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    display:block;
+}
+header h2{
+    width: 100%;
+    padding : 10px;
+    text-align: center;
+    background: red;
+    color: azure;
+}
+.imgMenu{
+    display:flex
+}
+
+.imgMenu img{
+    width:25%;
+    padding:15px;
+}
+nav {
+   /* border: solid;*/
+    display: flex;
+    align-items:end;
+    padding: 15px;
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    /*border: solid;*/
+    justify-content: space-evenly
+
+    
+}
+nav li {
+    font-size: 20px ;
+    /*border: solid ;*/
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+.pesquisa{
+    display:block;
+    margin-top:5% ;
+    width:25% ;
+   /* border: solid;*/
+}
+.pesquisa input{
+      width: 80%;
+      height:30px;
+      border-radius:15px ;
+}
