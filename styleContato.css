@@ -1,9 +1,9 @@
-*{
-    margin: 0;
+*{  margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 header{
-    background: url(images/fundo1.jpg);
+    background:whitesmoke;
     background-size: cover;
     display:block;
 }
@@ -24,30 +24,32 @@ header h2{
 }
 nav {
     display: flex;
-    align-items:end;
+    align-items: center;
     padding: 15px;
-    width: 50%;
+    width: 80%;
 }
  li :visited {
  color: black;
 }
 li:hover{
-    font-size: 25px;
+    font-size: 23px;
     color : green;
 }
 
 nav ul{
+    /*border:solid;*/
     text-decoration: none;
     display: flex;
     width: 100%;
     justify-content: space-evenly   
 }
 nav li {
+    /*border:solid;*/
     font-family: 'Roboto', sans-serif;
     font-family: 'Secular One', sans-serif;
     font-size: 20px ;
-    display: inline;
-     padding: 10px;   
+    display:inline-flex;
+    padding: 10px;   
 }
 li a{
     text-decoration: none;
@@ -89,7 +91,15 @@ form{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
     font-size:18px;
 }
-
+label {
+    border-radius: 8px;
+    padding-left:10px ;
+    padding-right: 10px;
+    background-color:  #02892883;
+    width: max-content;
+    color: #ffffff;
+    font-size:20px;
+}
 /*divs do formulario*/
 form div{
     display: flex;
@@ -130,14 +140,23 @@ form div{
 }
  /*check box*/
 .orcamento{
+    border-radius: 5px;
     display: inline;
+    background-color: #375a41a8;
+    color: #ffffff;
     
 }
 /*botom enviar*/
-.butom{
+.butom {
+    border: 3px #028928 solid ;
+    border-radius: 15px;
     padding-right: 5px;
     margin-top: 20px;
-    width:80px;
+    width:120px;
+    height:40px;
     margin-left: 442px;
+    background-color:  #375a41a8;
+    color: #ffffff;
+    font-size:20px;
 
 }

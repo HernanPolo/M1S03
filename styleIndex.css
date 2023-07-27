@@ -1,21 +1,26 @@
-*{
-    margin: 0;
+*{ 
+    margin:0;
     padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: inline-table;
+   /* border:solid ;*/
 }
 header{
-    background: url(images/fundo1.jpg);
+    background:whitesmoke;
     background-size: cover;
     display:block;
 }
 header h2{
-    width: 100%;
+     width: 100%;
     padding : 10px;
     text-align: center;
     background: #269c65;
     color: azure;
 }
 .imgMenu{
-    display:flex
+    display:inline-flex;
 }
 
 .imgMenu img{
@@ -24,76 +29,82 @@ header h2{
 }
 nav {
     display: flex;
-    align-items:end;
+    align-items:center;
     padding: 15px;
-    width: 50%;
-}
-li:hover{
-    font-size: 25px;
-    color : green;
+    width: 80%;
 }
  li :visited {
  color: black;
 }
+li:hover{
+    font-size: 23px;
+    color : green;
+}
 
 nav ul{
+    /*border:solid;*/
+    text-decoration: none;
     display: flex;
     width: 100%;
     justify-content: space-evenly   
 }
 nav li {
+    /*border:solid;*/
     font-family: 'Roboto', sans-serif;
     font-family: 'Secular One', sans-serif;
     font-size: 20px ;
-    display: inline;
-     padding: 10px;   
+    display:inline-flex;
+    padding: 10px;   
 }
 li a{
     text-decoration: none;
 }
-.pesquisa{
-    display:block;
-    margin-top:5% ;
-    width:25% ;
-   /* border: solid;*/
-}
-.pesquisa input{
-      width: 80%;
-      height:30px;
-      border-radius:15px ;
-}
 hr{
- border: solid 2px  #269c65;;
+ border: solid 2px  #6b8478;;
 }
 main{ 
+
     background-color: #ffffff;
-    background-image: url(images/fundo.jpg);
+    /*background-image: url(images/fundo.jpg);*/
     background-size:cover;
+    width: 100%;
     
 
 }
 
 main h1{
-   padding: 15px;
-}
+    text-align: center;
+    padding:40px;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans';
+    font-size: 30px;  }
 
 .filera{
-    display: flex;
+   /* border:solid;*/
+    /*margin:15px;*/
+    padding-top: 15px;
+    padding-right: 40px;
+    display:flex;
     justify-content: space-evenly;
+    margin-bottom:50px;
 }
 .card:hover{
-    border: solid 8px #15b91839; 
-    shadow: black 10px;
+   border: solid 0.25px rgba(128, 128, 128, 0.142);
+    box-shadow:8px 8px 10px #587658bd;
+    /*background-color: #66c780d9;+*/
 }
 .card{
-    border: solid 1px #15b9189e;
+    display:grid;
+    padding-bottom: 5px;
     margin-left:40px;
     border-radius:15px;
     width:300px;
     background:#ffffff;
-    height:590px;
+   
 }
-
+.descPro {
+    font-size:10px;
+}
 
 .fav{
 
@@ -110,18 +121,21 @@ main h1{
     color: rgb(0, 0, 0);
 }
 .valorAntigo{
+    text-align: center;
     padding-top: 15px;
     padding-inline:15px ;
     width:100% ;
     
 }
  .valorAtual{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     text-align: center;
     font-size:30px;
     padding-top: 15px;
  }
  .butom{
+    /*border: solid;*/
     padding:10px;
     display: flex;
     justify-content: space-around;
@@ -133,14 +147,19 @@ button{
     justify-content:space-evenly;
     display:flex;
     align-items:center;
-    background-color: rgb(187, 245, 255);
+    background-color: rgb(149, 152, 148);
     height:40px;
-    width: 95%;
-    border-radius:10px;
+    width:70%;
+    border-radius:5px;
     padding:20px;
     border:none;
+   
 }
  
 button.img{
 
+}
+footer{
+    height: 100px;
+    background-color: aliceblue;
 }
